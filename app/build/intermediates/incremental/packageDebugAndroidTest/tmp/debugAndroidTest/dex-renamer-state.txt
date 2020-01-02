@@ -1,0 +1,4 @@
+#Thu Jan 02 19:20:26 IST 2020
+base.0=/Users/swaroop.dantu/Desktop/FindingSita/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

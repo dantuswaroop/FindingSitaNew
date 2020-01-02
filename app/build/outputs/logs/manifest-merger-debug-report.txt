@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/51bcf0bdcf90dd3652f2a6036693a0ce/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/190434d8e89a734ef4339166661eb31d/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4b3708c00c7245ee844dffbb76ed5218/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db42853f607e34616d9b763cd23133ba/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/33277dffebad8eb640697aac5d8a8c65/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9cdb57efe4f5f1f7ba6816e6fcba03fe/legacy-support-core-utils-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/b12f732d38c896229fa0454c1ba73cca/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb327816fbaffbe51341d98158585f14/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cd57a459cacf7e8a6b962de8fcdd6ec0/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/6a66838f8b39a1208bab42bc34622c7e/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/985f7ba634063d0838b4fe879bb3ae85/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/e27c6b54f919b2312ed4f8f6dd1aa738/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a2c4a5aea6d1429e354f2e6babd1a60c/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7d5ba077325f15b1c8dfb281bd988a38/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/eca50e412f81227b027ac845d4439986/documentfile-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9049d11a00aa206edcb53b3dadc7a8d0/localbroadcastmanager-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7434df858984ccad793208ef57c831fd/print-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/190434d8e89a734ef4339166661eb31d/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/190434d8e89a734ef4339166661eb31d/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.dantu.findingsita.MainActivity
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/51bcf0bdcf90dd3652f2a6036693a0ce/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/51bcf0bdcf90dd3652f2a6036693a0ce/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/190434d8e89a734ef4339166661eb31d/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/190434d8e89a734ef4339166661eb31d/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4b3708c00c7245ee844dffbb76ed5218/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4b3708c00c7245ee844dffbb76ed5218/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db42853f607e34616d9b763cd23133ba/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db42853f607e34616d9b763cd23133ba/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/33277dffebad8eb640697aac5d8a8c65/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/33277dffebad8eb640697aac5d8a8c65/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9cdb57efe4f5f1f7ba6816e6fcba03fe/legacy-support-core-utils-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9cdb57efe4f5f1f7ba6816e6fcba03fe/legacy-support-core-utils-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/b12f732d38c896229fa0454c1ba73cca/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/b12f732d38c896229fa0454c1ba73cca/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb327816fbaffbe51341d98158585f14/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cb327816fbaffbe51341d98158585f14/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cd57a459cacf7e8a6b962de8fcdd6ec0/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/cd57a459cacf7e8a6b962de8fcdd6ec0/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/6a66838f8b39a1208bab42bc34622c7e/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/6a66838f8b39a1208bab42bc34622c7e/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/985f7ba634063d0838b4fe879bb3ae85/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/985f7ba634063d0838b4fe879bb3ae85/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/e27c6b54f919b2312ed4f8f6dd1aa738/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/e27c6b54f919b2312ed4f8f6dd1aa738/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a2c4a5aea6d1429e354f2e6babd1a60c/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/a2c4a5aea6d1429e354f2e6babd1a60c/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7d5ba077325f15b1c8dfb281bd988a38/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7d5ba077325f15b1c8dfb281bd988a38/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/eca50e412f81227b027ac845d4439986/documentfile-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/eca50e412f81227b027ac845d4439986/documentfile-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9049d11a00aa206edcb53b3dadc7a8d0/localbroadcastmanager-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/9049d11a00aa206edcb53b3dadc7a8d0/localbroadcastmanager-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7434df858984ccad793208ef57c831fd/print-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/7434df858984ccad793208ef57c831fd/print-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swaroop.dantu/Desktop/FindingSita/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/swaroop.dantu/.gradle/caches/transforms-2/files-2.1/ddf1051f6e525acf6ccad8f06e52de93/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
