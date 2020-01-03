@@ -1,18 +1,22 @@
 package com.dantu.findingsita.repository.database
 
 import android.app.Application
+import android.content.Context
+import androidx.lifecycle.LiveData
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
-class PlayerRepository(application: Application) {
+class PlayerRepository(application: Context) {
 
     private var playerDao : PlayerDao
-    private var playerList : List<Player>
+    private var playerList : LiveData<List<Player>>
         get() {
            return playerDao.getPlayers()
         }
 
     init {
         val gameDB = GameDatabase.Companion.getInstance(application)
-        playerDao = gameDB.playerDao
+        playerDao = gameDB!!.playerDao
         playerList = playerDao.getPlayers()
     }
 
@@ -28,6 +32,12 @@ class PlayerRepository(application: Application) {
         playerDao.update(player)
     }
 
+    fun getPlayers(): LiveData<List<Player>> {
+       return playerDao.getPlayers()
+    }
 
+    fun getPlayerById(playerId: Int) : Player {
+        return playerDao.getPlayerById(playerId)
+    }
 
 }

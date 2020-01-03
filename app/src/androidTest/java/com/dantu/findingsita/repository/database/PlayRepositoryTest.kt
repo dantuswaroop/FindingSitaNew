@@ -50,13 +50,25 @@ class PlayRepositoryTest {
 
     @Test
     fun updatePlay() {
-    }
+        val plays = arrayListOf(
+            Play(1, 1),
+            Play(1, 2),
+            Play(1, 3),
+            Play(2, 1),
+            Play(2, 2),
+            Play(2, 3),
+            Play(3, 1)
+        )
+        playDao.insertPlay(plays)
 
-    @Test
-    fun createPlay() {
-    }
+        plays.get(0).score = 100
+        plays.get(1).score = 90
+        plays.get(2).score = 0
 
-    @Test
-    fun testCreatePlay() {
+        playDao.updatePlays(plays)
+
+        assertEquals(100, playDao.getPlaysForGame(1).get(0).score)
+        assertEquals(90, playDao.getPlaysForGame(1).get(1).score)
+        assertEquals(0, playDao.getPlaysForGame(1).get(2).score)
     }
 }

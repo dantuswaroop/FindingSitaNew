@@ -1,8 +1,12 @@
 package com.dantu.findingsita.repository.database;
 
 import android.database.Cursor;
+import androidx.annotation.NonNull;
+import androidx.lifecycle.ComputableLiveData;
+import androidx.lifecycle.LiveData;
 import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
+import androidx.room.InvalidationTracker.Observer;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
 import androidx.room.SharedSQLiteStatement;
@@ -12,6 +16,7 @@ import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @SuppressWarnings("unchecked")
 public final class PlayerDao_Impl implements PlayerDao {
@@ -147,30 +152,85 @@ public final class PlayerDao_Impl implements PlayerDao {
   }
 
   @Override
-  public List<Player> getPlayers() {
+  public LiveData<List<Player>> getPlayers() {
     final String _sql = "SELECT * FROM players";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    return new ComputableLiveData<List<Player>>(__db.getQueryExecutor()) {
+      private Observer _observer;
+
+      @Override
+      protected List<Player> compute() {
+        if (_observer == null) {
+          _observer = new Observer("players") {
+            @Override
+            public void onInvalidated(@NonNull Set<String> tables) {
+              invalidate();
+            }
+          };
+          __db.getInvalidationTracker().addWeakObserver(_observer);
+        }
+        final Cursor _cursor = __db.query(_statement);
+        try {
+          final int _cursorIndexOfPlayerId = _cursor.getColumnIndexOrThrow("playerId");
+          final int _cursorIndexOfImage = _cursor.getColumnIndexOrThrow("image");
+          final int _cursorIndexOfPlayerName = _cursor.getColumnIndexOrThrow("player_name");
+          final int _cursorIndexOfPassword = _cursor.getColumnIndexOrThrow("password");
+          final List<Player> _result = new ArrayList<Player>(_cursor.getCount());
+          while(_cursor.moveToNext()) {
+            final Player _item;
+            final String _tmpPlayerName;
+            _tmpPlayerName = _cursor.getString(_cursorIndexOfPlayerName);
+            final String _tmpPassword;
+            _tmpPassword = _cursor.getString(_cursorIndexOfPassword);
+            _item = new Player(_tmpPlayerName,_tmpPassword);
+            final int _tmpPlayerId;
+            _tmpPlayerId = _cursor.getInt(_cursorIndexOfPlayerId);
+            _item.setPlayerId(_tmpPlayerId);
+            final byte[] _tmpImage;
+            _tmpImage = _cursor.getBlob(_cursorIndexOfImage);
+            _item.setImage(_tmpImage);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+        }
+      }
+
+      @Override
+      protected void finalize() {
+        _statement.release();
+      }
+    }.getLiveData();
+  }
+
+  @Override
+  public Player getPlayerById(int playerId) {
+    final String _sql = "SELECT * FROM players WHERE playerId=?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, playerId);
     final Cursor _cursor = __db.query(_statement);
     try {
       final int _cursorIndexOfPlayerId = _cursor.getColumnIndexOrThrow("playerId");
       final int _cursorIndexOfImage = _cursor.getColumnIndexOrThrow("image");
       final int _cursorIndexOfPlayerName = _cursor.getColumnIndexOrThrow("player_name");
       final int _cursorIndexOfPassword = _cursor.getColumnIndexOrThrow("password");
-      final List<Player> _result = new ArrayList<Player>(_cursor.getCount());
-      while(_cursor.moveToNext()) {
-        final Player _item;
+      final Player _result;
+      if(_cursor.moveToFirst()) {
         final String _tmpPlayerName;
         _tmpPlayerName = _cursor.getString(_cursorIndexOfPlayerName);
         final String _tmpPassword;
         _tmpPassword = _cursor.getString(_cursorIndexOfPassword);
-        _item = new Player(_tmpPlayerName,_tmpPassword);
+        _result = new Player(_tmpPlayerName,_tmpPassword);
         final int _tmpPlayerId;
         _tmpPlayerId = _cursor.getInt(_cursorIndexOfPlayerId);
-        _item.setPlayerId(_tmpPlayerId);
+        _result.setPlayerId(_tmpPlayerId);
         final byte[] _tmpImage;
         _tmpImage = _cursor.getBlob(_cursorIndexOfImage);
-        _item.setImage(_tmpImage);
-        _result.add(_item);
+        _result.setImage(_tmpImage);
+      } else {
+        _result = null;
       }
       return _result;
     } finally {

@@ -6,7 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.dantu.findingsita.MainActivity
 import com.dantu.findingsita.R
+import kotlinx.android.synthetic.main.main_fragment.*
 
 class MainFragment : Fragment() {
 
@@ -24,7 +26,26 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
-        // TODO: Use the ViewModel
+
+        manage_players.setOnClickListener {
+            //launch manage players fragment
+            fragmentManager?.beginTransaction()?.replace(R.id.container, PlayersFragment())?.
+                addToBackStack(PlayersFragment::class.qualifiedName)
+                ?.commit();
+        }
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        updateActionBar()
+    }
+
+    private fun updateActionBar() {
+        val supportActionBar = (activity as MainActivity).supportActionBar
+
+        supportActionBar?.title = "Findind Sita"
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
     }
 
 }

@@ -10,7 +10,7 @@ interface PlayerDao {
     fun insert(player : Player)
 
     @Query("SELECT * FROM players")
-    fun getPlayers() : List<Player>
+    fun getPlayers() : LiveData<List<Player>>
 
     @Update
     fun update(player: Player)
@@ -20,4 +20,7 @@ interface PlayerDao {
 
     @Query("DELETE FROM players")
     fun deleteAllPlayers()
+
+    @Query("SELECT * FROM players WHERE playerId=:playerId")
+    fun getPlayerById(playerId: Int): Player
 }

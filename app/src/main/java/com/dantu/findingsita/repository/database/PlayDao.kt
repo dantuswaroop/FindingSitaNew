@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
+import java.util.ArrayList
 
 @Dao
 interface PlayDao {
@@ -19,4 +20,7 @@ interface PlayDao {
 
     @Query("SELECT * from play where game_id=:gameId")
     fun getPlaysForGame(gameId : Int) : List<Play>
+
+    @Update
+    fun updatePlays(plays: List<Play>)
 }

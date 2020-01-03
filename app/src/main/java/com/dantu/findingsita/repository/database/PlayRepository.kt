@@ -8,7 +8,7 @@ class PlayRepository(application: Application) {
 
     init {
         val gameDB = GameDatabase.Companion.getInstance(application)
-        playDao = gameDB.playDao
+        playDao = gameDB!!.playDao
     }
 
     fun getPlaysForGameId(gameId : Int) : List<Play>{

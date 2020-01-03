@@ -88,6 +88,17 @@ public final class PlayDao_Impl implements PlayDao {
   }
 
   @Override
+  public void updatePlays(List<Play> plays) {
+    __db.beginTransaction();
+    try {
+      __updateAdapterOfPlay.handleMultiple(plays);
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+    }
+  }
+
+  @Override
   public List<Play> getPlaysForGame(int gameId) {
     final String _sql = "SELECT * from play where game_id=?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);

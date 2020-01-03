@@ -17,8 +17,8 @@ abstract class GameDatabase : RoomDatabase() {
     abstract val playerDao : PlayerDao
 
     object Companion {
-        private lateinit var INSTANCE : GameDatabase
-        fun getInstance(context: Application) : GameDatabase {
+        private var INSTANCE : GameDatabase? = null
+        fun getInstance(context: Context) : GameDatabase? {
             if (INSTANCE == null) {
                 INSTANCE = Room.databaseBuilder(context.applicationContext,
                     GameDatabase::class.java, "game_database")
